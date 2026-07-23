@@ -1,0 +1,17 @@
+///////////////////////////////////////////////////////////////////////////////////////
+//
+// Copyright (c) 2025-2026 Universität der Bundeswehr München / FI CODE - ESSEC Lab.
+// Licensed under the Apache License, Version 2.0, see LICENSE for details.
+// SPDX-License-Identifier: Apache-2.0
+//
+///////////////////////////////////////////////////////////////////////////////////////
+
+#include "common/ShakeXofTest.hpp"
+namespace sharmony {
+static int run_shake128_variableout(SharmonyDriver& drv, const TestOptions& opts) {
+    return runShakeVariableOut(drv, opts, Mode::SHAKE128,
+              "tb/src/tests/data/SHAKE128VariableOut.rsp",
+              "shake128_variableout");
+}
+REGISTER_TEST("shake128_variableout", run_shake128_variableout);
+}  // namespace sharmony
