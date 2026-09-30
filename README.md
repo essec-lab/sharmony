@@ -197,6 +197,8 @@ SHARMONY/
 
 ## Publication
 
+The paper describing SHARMONY in detail is published at [TCHES 2026(4)](https://tches.iacr.org/index.php/TCHES/article/view/13266) and also available on [ePrint](https://eprint.iacr.org/2026/1572).
+
 ```bibtex
 @article{Anwar2026Sharmony, 
     author  = {Liga Anwar and Carlos Andres Lara-Nino and Jong-Yeon Park and Michael Hutter},
